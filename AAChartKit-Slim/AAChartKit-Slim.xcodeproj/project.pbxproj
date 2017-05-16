@@ -15,6 +15,8 @@
 		719C3E391ECB028300FAF38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719C3E371ECB028300FAF38E /* LaunchScreen.storyboard */; };
 		719C3E441ECB028300FAF38E /* AAChartKit_SlimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719C3E431ECB028300FAF38E /* AAChartKit_SlimTests.m */; };
 		719C3E4F1ECB028300FAF38E /* AAChartKit_SlimUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719C3E4E1ECB028300FAF38E /* AAChartKit_SlimUITests.m */; };
+		719C3E5D1ECB056100FAF38E /* AAChartView.html in Resources */ = {isa = PBXBuildFile; fileRef = 719C3E5C1ECB056100FAF38E /* AAChartView.html */; };
+		719C3E631ECB06FC00FAF38E /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 719C3E621ECB06FC00FAF38E /* AAChartModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		719C3E4A1ECB028300FAF38E /* AAChartKit-SlimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AAChartKit-SlimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C3E4E1ECB028300FAF38E /* AAChartKit_SlimUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKit_SlimUITests.m; sourceTree = "<group>"; };
 		719C3E501ECB028300FAF38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719C3E5C1ECB056100FAF38E /* AAChartView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartView.html; sourceTree = "<group>"; };
+		719C3E611ECB06FC00FAF38E /* AAChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModel.h; sourceTree = "<group>"; };
+		719C3E621ECB06FC00FAF38E /* AAChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				719C3E2D1ECB028300FAF38E /* AppDelegate.m */,
 				719C3E2F1ECB028300FAF38E /* ViewController.h */,
 				719C3E301ECB028300FAF38E /* ViewController.m */,
+				719C3E611ECB06FC00FAF38E /* AAChartModel.h */,
+				719C3E621ECB06FC00FAF38E /* AAChartModel.m */,
+				719C3E5C1ECB056100FAF38E /* AAChartView.html */,
 				719C3E321ECB028300FAF38E /* Main.storyboard */,
 				719C3E351ECB028300FAF38E /* Assets.xcassets */,
 				719C3E371ECB028300FAF38E /* LaunchScreen.storyboard */,
@@ -249,6 +257,7 @@
 				719C3E391ECB028300FAF38E /* LaunchScreen.storyboard in Resources */,
 				719C3E361ECB028300FAF38E /* Assets.xcassets in Resources */,
 				719C3E341ECB028300FAF38E /* Main.storyboard in Resources */,
+				719C3E5D1ECB056100FAF38E /* AAChartView.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +284,7 @@
 			files = (
 				719C3E311ECB028300FAF38E /* ViewController.m in Sources */,
 				719C3E2E1ECB028300FAF38E /* AppDelegate.m in Sources */,
+				719C3E631ECB06FC00FAF38E /* AAChartModel.m in Sources */,
 				719C3E2B1ECB028300FAF38E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
