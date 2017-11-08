@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		719C3E261ECB028200FAF38E /* AAChartKit-Slim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAChartKit-Slim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C3E261ECB028200FAF38E /* AAChartKit-SlimDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAChartKit-SlimDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C3E2A1ECB028300FAF38E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		719C3E2C1ECB028300FAF38E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		719C3E2D1ECB028300FAF38E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		719C3E351ECB028300FAF38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		719C3E381ECB028300FAF38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		719C3E3A1ECB028300FAF38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		719C3E3F1ECB028300FAF38E /* AAChartKit-SlimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AAChartKit-SlimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C3E3F1ECB028300FAF38E /* AAChartKit-SlimDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AAChartKit-SlimDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C3E431ECB028300FAF38E /* AAChartKit_SlimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKit_SlimTests.m; sourceTree = "<group>"; };
 		719C3E451ECB028300FAF38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		719C3E4A1ECB028300FAF38E /* AAChartKit-SlimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AAChartKit-SlimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C3E4A1ECB028300FAF38E /* AAChartKit-SlimDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AAChartKit-SlimDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C3E4E1ECB028300FAF38E /* AAChartKit_SlimUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKit_SlimUITests.m; sourceTree = "<group>"; };
 		719C3E501ECB028300FAF38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719C3E5C1ECB056100FAF38E /* AAChartView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartView.html; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				719C3E281ECB028200FAF38E /* AAChartKit-Slim */,
-				719C3E421ECB028300FAF38E /* AAChartKit-SlimTests */,
-				719C3E4D1ECB028300FAF38E /* AAChartKit-SlimUITests */,
+				719C3E421ECB028300FAF38E /* AAChartKit-SlimDemoTests */,
+				719C3E4D1ECB028300FAF38E /* AAChartKit-SlimUIDemoTests */,
 				719C3E271ECB028200FAF38E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 		719C3E271ECB028200FAF38E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				719C3E261ECB028200FAF38E /* AAChartKit-Slim.app */,
-				719C3E3F1ECB028300FAF38E /* AAChartKit-SlimTests.xctest */,
-				719C3E4A1ECB028300FAF38E /* AAChartKit-SlimUITests.xctest */,
+				719C3E261ECB028200FAF38E /* AAChartKit-SlimDemo.app */,
+				719C3E3F1ECB028300FAF38E /* AAChartKit-SlimDemoTests.xctest */,
+				719C3E4A1ECB028300FAF38E /* AAChartKit-SlimDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,30 +130,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		719C3E421ECB028300FAF38E /* AAChartKit-SlimTests */ = {
+		719C3E421ECB028300FAF38E /* AAChartKit-SlimDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				719C3E431ECB028300FAF38E /* AAChartKit_SlimTests.m */,
 				719C3E451ECB028300FAF38E /* Info.plist */,
 			);
-			path = "AAChartKit-SlimTests";
+			path = "AAChartKit-SlimDemoTests";
 			sourceTree = "<group>";
 		};
-		719C3E4D1ECB028300FAF38E /* AAChartKit-SlimUITests */ = {
+		719C3E4D1ECB028300FAF38E /* AAChartKit-SlimUIDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				719C3E4E1ECB028300FAF38E /* AAChartKit_SlimUITests.m */,
 				719C3E501ECB028300FAF38E /* Info.plist */,
 			);
-			path = "AAChartKit-SlimUITests";
+			path = "AAChartKit-SlimUIDemoTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		719C3E251ECB028200FAF38E /* AAChartKit-Slim */ = {
+		719C3E251ECB028200FAF38E /* AAChartKit-SlimDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 719C3E531ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-Slim" */;
+			buildConfigurationList = 719C3E531ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemo" */;
 			buildPhases = (
 				719C3E221ECB028200FAF38E /* Sources */,
 				719C3E231ECB028200FAF38E /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = "AAChartKit-Slim";
+			name = "AAChartKit-SlimDemo";
 			productName = "AAChartKit-Slim";
-			productReference = 719C3E261ECB028200FAF38E /* AAChartKit-Slim.app */;
+			productReference = 719C3E261ECB028200FAF38E /* AAChartKit-SlimDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		719C3E3E1ECB028300FAF38E /* AAChartKit-SlimTests */ = {
+		719C3E3E1ECB028300FAF38E /* AAChartKit-SlimDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 719C3E561ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimTests" */;
+			buildConfigurationList = 719C3E561ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemoTests" */;
 			buildPhases = (
 				719C3E3B1ECB028300FAF38E /* Sources */,
 				719C3E3C1ECB028300FAF38E /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				719C3E411ECB028300FAF38E /* PBXTargetDependency */,
 			);
-			name = "AAChartKit-SlimTests";
+			name = "AAChartKit-SlimDemoTests";
 			productName = "AAChartKit-SlimTests";
-			productReference = 719C3E3F1ECB028300FAF38E /* AAChartKit-SlimTests.xctest */;
+			productReference = 719C3E3F1ECB028300FAF38E /* AAChartKit-SlimDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		719C3E491ECB028300FAF38E /* AAChartKit-SlimUITests */ = {
+		719C3E491ECB028300FAF38E /* AAChartKit-SlimDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 719C3E591ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimUITests" */;
+			buildConfigurationList = 719C3E591ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemoUITests" */;
 			buildPhases = (
 				719C3E461ECB028300FAF38E /* Sources */,
 				719C3E471ECB028300FAF38E /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				719C3E4C1ECB028300FAF38E /* PBXTargetDependency */,
 			);
-			name = "AAChartKit-SlimUITests";
+			name = "AAChartKit-SlimDemoUITests";
 			productName = "AAChartKit-SlimUITests";
-			productReference = 719C3E4A1ECB028300FAF38E /* AAChartKit-SlimUITests.xctest */;
+			productReference = 719C3E4A1ECB028300FAF38E /* AAChartKit-SlimDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 719C3E211ECB028200FAF38E /* Build configuration list for PBXProject "AAChartKit-Slim" */;
+			buildConfigurationList = 719C3E211ECB028200FAF38E /* Build configuration list for PBXProject "AAChartKit-SlimDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				719C3E251ECB028200FAF38E /* AAChartKit-Slim */,
-				719C3E3E1ECB028300FAF38E /* AAChartKit-SlimTests */,
-				719C3E491ECB028300FAF38E /* AAChartKit-SlimUITests */,
+				719C3E251ECB028200FAF38E /* AAChartKit-SlimDemo */,
+				719C3E3E1ECB028300FAF38E /* AAChartKit-SlimDemoTests */,
+				719C3E491ECB028300FAF38E /* AAChartKit-SlimDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		719C3E411ECB028300FAF38E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 719C3E251ECB028200FAF38E /* AAChartKit-Slim */;
+			target = 719C3E251ECB028200FAF38E /* AAChartKit-SlimDemo */;
 			targetProxy = 719C3E401ECB028300FAF38E /* PBXContainerItemProxy */;
 		};
 		719C3E4C1ECB028300FAF38E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 719C3E251ECB028200FAF38E /* AAChartKit-Slim */;
+			target = 719C3E251ECB028200FAF38E /* AAChartKit-SlimDemo */;
 			targetProxy = 719C3E4B1ECB028300FAF38E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hobbies.AAChartKit-SlimTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAChartKit-Slim.app/AAChartKit-Slim";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAChartKit-SlimDemo.app/AAChartKit-SlimDemo";
 			};
 			name = Debug;
 		};
@@ -474,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hobbies.AAChartKit-SlimTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAChartKit-Slim.app/AAChartKit-Slim";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAChartKit-SlimDemo.app/AAChartKit-SlimDemo";
 			};
 			name = Release;
 		};
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		719C3E211ECB028200FAF38E /* Build configuration list for PBXProject "AAChartKit-Slim" */ = {
+		719C3E211ECB028200FAF38E /* Build configuration list for PBXProject "AAChartKit-SlimDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				719C3E511ECB028300FAF38E /* Debug */,
@@ -512,29 +512,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		719C3E531ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-Slim" */ = {
+		719C3E531ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				719C3E541ECB028300FAF38E /* Debug */,
 				719C3E551ECB028300FAF38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		719C3E561ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimTests" */ = {
+		719C3E561ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				719C3E571ECB028300FAF38E /* Debug */,
 				719C3E581ECB028300FAF38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		719C3E591ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimUITests" */ = {
+		719C3E591ECB028300FAF38E /* Build configuration list for PBXNativeTarget "AAChartKit-SlimDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				719C3E5A1ECB028300FAF38E /* Debug */,
 				719C3E5B1ECB028300FAF38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
