@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "AAchartView.h"
+#import "AAJsonConverter.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+ 
+    
+    // Drawing code
+    AAChartModel *chartModel = [[AAChartModel alloc]init];
+    NSString *jsonString = [AAJsonConverter getPureOptionsString:chartModel];
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
